@@ -1,0 +1,56 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchRotated_recursion",
+            "request": "launch",
+            "mainClass": "SearchRotated_recursion",
+            "projectName": "HackingCoding_Interview_68db9f7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchRotated_iteration",
+            "request": "launch",
+            "mainClass": "SearchRotated_iteration",
+            "projectName": "HackingCoding_Interview_68db9f7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchRotated",
+            "request": "launch",
+            "mainClass": "SearchRotated",
+            "projectName": "HackingCoding_Interview_68db9f7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxSlidingWindow<HackingCoding_Interview_68db9f7>",
+            "request": "launch",
+            "mainClass": "MaxSlidingWindow",
+            "projectName": "HackingCoding_Interview_68db9f7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-binarySearch<HackingCoding_Interview_68db9f7>",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "HackingCoding_Interview_68db9f7"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-slidingWindow<HackingCoding_Interview_68db9f7>",
+            "request": "launch",
+            "mainClass": "slidingWindow",
+            "projectName": "HackingCoding_Interview_68db9f7"
+        }
+    ]
+}

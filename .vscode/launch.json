@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - rotateArray",
+            "request": "launch",
+            "mainClass": "rotateArray",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LeastCommonNumber",
+            "request": "launch",
+            "mainClass": "LeastCommonNumber",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SearchRotated_recursion",
             "request": "launch",
             "mainClass": "SearchRotated_recursion",

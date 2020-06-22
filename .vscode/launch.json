@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - findLowHigh",
+            "request": "launch",
+            "mainClass": "findLowHigh",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - rotateArray",
             "request": "launch",
             "mainClass": "rotateArray",

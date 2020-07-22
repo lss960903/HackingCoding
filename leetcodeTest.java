@@ -1,30 +1,24 @@
-import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 
 class Solution {
-    public static String[] getFolderNames(String[] names) {
-        HashMap<String,Integer> map = new HashMap<>();
-        String[] ans = new String[names.length];
-        for (int i = 0; i < names.length; i++) {
-            if(!map.containsKey(names[i])){
-                ans[i]=names[i];
-            }
-            else{
-                int k = map.get(names[i])+1;
-                while(map.containsKey(names[i]+"("+k+")")){
-                    k++;
-                }
-                map.put(names[i], k);
-                ans[i]= names[i]+"("+k+")";
-            }
-            map.put(ans[i],0);
-        }
+    public static List<List<Integer>> subsets(int[] nums) {
+        //corner case
+        if(nums==null || nums.length==0)return null;
+        List<List<Integer>> ans = new LinkedList<>();
+        helper(0,nums,ans, new LinkedList<Integer>());
         return ans;
     }
-    
-    public static void main(String []args) {
-        String[] names = {"wano","wano","wano","wano"};
-        getFolderNames(names);
-        
-        
+    public static void helper(int start,int[] nums,List<List<Integer>> ans,List<Integer> curr){
+        ans.add(new LinkedList<Integer>(curr));
+        for(int i = start; i< nums.length; i++){
+            curr.add(nums[i]);
+            helper(i+1, nums, ans, curr);
+            curr.remove(curr.size()-1);
+        }
+    }
+    public static void main(String[] args) {
+        int[] nums = {1,2,3,4};
+        subsets(nums);
     }
 }

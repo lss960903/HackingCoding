@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - mergeArray",
+            "request": "launch",
+            "mainClass": "mergeArray",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - stockPrices",
+            "request": "launch",
+            "mainClass": "stockPrices",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - moveZeros",
+            "request": "launch",
+            "mainClass": "moveZeros",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - findLowHigh",
             "request": "launch",
             "mainClass": "findLowHigh",

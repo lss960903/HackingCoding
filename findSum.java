@@ -1,12 +1,11 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class findSum {
     public static boolean findSumofTwo(int[] A, int val) {
         /** using hashing
          * given unordered array 
          **/
+        Arrays.sort(A);
         Arrays.sort(A);
         int start = 0;
         int end = A.length-1;

@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - mergeSortLLT",
+            "request": "launch",
+            "mainClass": "mergeSortLLT",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - swapNthNodeLLT",
+            "request": "launch",
+            "mainClass": "swapNthNodeLLT",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - intersectLLT",
+            "request": "launch",
+            "mainClass": "intersectLLT",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - insertSortLLT",
+            "request": "launch",
+            "mainClass": "insertSortLLT",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - removeDuplicateLLT",
+            "request": "launch",
+            "mainClass": "removeDuplicateLLT",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - reverseLLT",
+            "request": "launch",
+            "mainClass": "reverseLLT",
+            "projectName": "HackingCoding_67d97c47"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - QuickSort",
             "request": "launch",
             "mainClass": "QuickSort",
